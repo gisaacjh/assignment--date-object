@@ -1,10 +1,17 @@
 /**
  * Write a JavaScript function to get the number of days in a month.
  */
-
-
-
-
+ function daysInMonth(ano, mon){
+   di=28
+   mes = new Date(mon +" 1, 2017").getMonth()
+   console.log(mes);
+   f = new Date(ano,mes,di);
+   while(f.getMonth()==mes){
+     di++;
+     f = new Date(ano,mes,di);
+   }
+   return di-1;
+ }
 
 
 

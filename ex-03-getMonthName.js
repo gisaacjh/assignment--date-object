@@ -4,6 +4,13 @@
  *     Hint: You might want to use `.getMonth()` function from `Date` object
  */
 
+ function getMonthName(date) {
+   var mes = date.getMonth()
+   var meses = ["January", "February", "March", "April", "May", "June",
+   "July", "August", "September", "October", "November", "December"];
+   var nombreMes = meses[mes]
+   return (nombreMes)
+ }
 
 
 
