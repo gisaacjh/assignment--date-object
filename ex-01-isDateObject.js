@@ -3,13 +3,7 @@
  */
 
 
-var isDate = function(date) {
-  if (date.constructor.name === 'Date') {
-    return true;
-  }
 
-  return false
-}
 
 
 

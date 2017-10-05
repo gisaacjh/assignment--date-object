@@ -4,62 +4,7 @@
 
 
 
-function daysInMonth(year, month) {
-  let monthIndex;
 
-  switch (month) {
-    case "January": {
-      monthIndex = 1;
-      break;
-    }
-    case "February": {
-      monthIndex = 2;
-      break;
-    }
-    case "March": {
-      monthIndex = 3;
-      break;
-    }
-    case "April": {
-      monthIndex = 4;
-      break;
-    }
-    case "May": {
-      monthIndex = 5;
-      break;
-    }
-    case "June": {
-      monthIndex = 6;
-      break;
-    }
-    case "July": {
-      monthIndex = 7;
-      break;
-    }
-    case "August": {
-      monthIndex = 8;
-      break;
-    }
-    case "September": {
-      monthIndex = 9;
-      break;
-    }
-    case "October": {
-      monthIndex = 10;
-      break;
-    }
-    case "November": {
-      monthIndex = 11;
-      break;
-    }
-    case "December": {
-      monthIndex = 12;
-      break;
-    }
-  }
-
-  return new Date(year, monthIndex, 0).getDate();
-}
 
 
 
